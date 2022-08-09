@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "./Button";
+import "../CSS/Button.css";
 import "../CSS/Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 

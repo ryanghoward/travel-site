@@ -1,47 +1,48 @@
 import React from "react";
 import CardItem from "./CardItem";
 import "../CSS/Cards.css";
-import img9 from "../images/img-9.jpg";
-import img2 from "../images/img-2.jpg";
-import img3 from "../images/img-3.jpg";
-import img4 from "../images/img-4.jpg";
-import img8 from "../images/img-8.jpg";
+import amazon from "../images/amazon.jpg";
+import islands from "../images/islands.jpg";
+import sailing from "../images/sailing.jpg";
+import mountain from "../images/mountain.jpg";
+import culture from "../images/culture.jpg";
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out the epic destinations</h1>
+      <h1>The World Is Your Oyster</h1>
+      <h3>What Would You Like To Do?</h3>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItem
-              src={img9}
-              text='Explore The Hidden Waterfalls Deep Within The Amazon Rain Forrest'
+              src={amazon}
+              text='Explore The Amazon Rain Forrest'
               label='Adventure'
               path='/services'
             />
             <CardItem
-              src={img2}
-              text='Travel Through The Islands Of Bali On A Private Cruise'
-              label='Luxury'
+              src={islands}
+              text='Find Peace In Paradise'
+              label='Relaxation'
               path='/services'
             />
             <CardItem
-              src={img3}
-              text='Set Sail On The Atlantic Ocean As You Traverse Uncharted Waters'
+              src={sailing}
+              text='Set Sail On The Open Seas'
               label='Mystery'
               path='/services'
             />
             <CardItem
-              src={img4}
-              text='Play Familiar Games In Unfamiliar Environments'
-              label='Adventure'
+              src={mountain}
+              text='Climb To The Peak Of The Himalayas'
+              label='Challenge'
               path='/services'
             />
             <CardItem
-              src={img8}
-              text='Take A Ride Through The Sahara Desert On A Guided Camel Back Tour'
-              label='Adrenaline'
+              src={culture}
+              text='Experience A New Culture'
+              label='Culture'
               path='/services'
             />
           </ul>
