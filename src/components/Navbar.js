@@ -28,8 +28,8 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/home' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
+          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+            EXPLORE
           </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? <FaTimes /> : <FaBars />} />
@@ -68,7 +68,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
+          {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
       </nav>
     </>

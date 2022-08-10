@@ -15,7 +15,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the TRVL newsletter to receive our best deals
+          Join the EXPLORE newsletter to receive our best deals
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time
@@ -54,10 +54,10 @@ function Footer() {
         <div className='social-media-wrap'>
           <div className='footer-logo'>
             <Link to='/hireme' className='social-logo'>
-              TRVL
+              EXPLORE
             </Link>
           </div>
-          <small className='website-rights'>TRVL © 2022</small>
+          <div className='website-rights'>EXPLORE © 2022</div>
           <div className='social-icons'>
             <FaFacebook className='social-icon-link' />
             <FaInstagram className='social-icon-link' />

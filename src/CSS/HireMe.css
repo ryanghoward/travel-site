@@ -1,6 +1,6 @@
-.hireme {
+.container {
   display: flex;
-  height: 90vh;
+  height: 91.5vh;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
@@ -8,6 +8,22 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.hireme h1 {
   color: #fff;
   font-size: 100px;
+}
+
+.hireme a {
+  color: #fff;
+  font-size: 2rem;
+  font-style: italic;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+}
+
+.hireme a:hover {
+  text-decoration: underline;
 }

@@ -35,7 +35,7 @@ function Cards() {
             <CardItem
               src={mountain}
               text='Climb To The Top Of The World'
-              label='Challenge'
+              label='Exploration'
               path='/hireme'
             />
             <CardItem
