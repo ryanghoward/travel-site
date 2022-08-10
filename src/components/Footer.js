@@ -36,24 +36,24 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div className='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/'>Testimonials</Link>
-            <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
-            <Link to='/'>Terms Of Service</Link>
+            <Link to='/hireme'>Testimonials</Link>
+            <Link to='/hireme'>Careers</Link>
+            <Link to='/hireme'>Investors</Link>
+            <Link to='/hireme'>Terms Of Service</Link>
           </div>
           <div className='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/'>Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/hireme'>Contact</Link>
+            <Link to='/hireme'>Support</Link>
+            <Link to='/hireme'>Destinations</Link>
+            <Link to='/hireme'>Sponsorships</Link>
           </div>
         </div>
       </div>
       <section className='social-media'>
         <div className='social-media-wrap'>
           <div className='footer-logo'>
-            <Link to='/' className='social-logo'>
+            <Link to='/hireme' className='social-logo'>
               TRVL
             </Link>
           </div>

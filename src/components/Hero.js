@@ -12,7 +12,7 @@ function Hero() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
-          to='/hireme'
+          to={"./HireMe"}
         >
           GET STARTED
         </Button>
