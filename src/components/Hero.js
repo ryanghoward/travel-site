@@ -12,15 +12,9 @@ function Hero() {
           className='btns'
           buttonStyle='btn--outline'
           buttonSize='btn--large'
+          to='/hireme'
         >
           GET STARTED
-        </Button>
-        <Button
-          className='btns'
-          buttonStyle='btn--primary'
-          buttonSize='btn--large'
-        >
-          WATCH TRAILER
         </Button>
       </div>
     </div>

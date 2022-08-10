@@ -10,8 +10,7 @@ import culture from "../images/culture.jpg";
 function Cards() {
   return (
     <div className='cards'>
-      <h1>The World Is Your Oyster</h1>
-      <h3>What Would You Like To Do?</h3>
+      <h1>Where Do You Want To Go?</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
@@ -19,31 +18,31 @@ function Cards() {
               src={amazon}
               text='Explore The Amazon Rain Forrest'
               label='Adventure'
-              path='/services'
+              path='/hireme'
             />
             <CardItem
               src={islands}
               text='Find Peace In Paradise'
               label='Relaxation'
-              path='/services'
+              path='/hireme'
             />
             <CardItem
               src={sailing}
               text='Set Sail On The Open Seas'
               label='Mystery'
-              path='/services'
+              path='/hireme'
             />
             <CardItem
               src={mountain}
-              text='Climb To The Peak Of The Himalayas'
+              text='Climb To The Top Of The World'
               label='Challenge'
-              path='/services'
+              path='/hireme'
             />
             <CardItem
               src={culture}
               text='Experience A New Culture'
               label='Culture'
-              path='/services'
+              path='/hireme'
             />
           </ul>
         </div>

@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { Button } from "./Button";
 import "../CSS/Button.css";
 import "../CSS/Navbar.css";
 import { FaBars, FaTimes } from "react-icons/fa";
@@ -28,7 +27,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
+          <Link to='/hireme' className='navbar-logo' onClick={closeMobileMenu}>
             TRVL
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -36,13 +35,17 @@ function Navbar() {
           </div>
           <ul className={click ? "nav-menu-active" : "nav-menu"}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+              <Link
+                to='/hireme'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
                 Home
               </Link>
             </li>
             <li className='nav-item'>
               <Link
-                to='/services'
+                to='/hireme'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -51,7 +54,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/products'
+                to='/hireme'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -60,7 +63,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <Link
-                to='/signup'
+                to='/hireme'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -68,7 +71,6 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>}
         </div>
       </nav>
     </>

@@ -20,7 +20,7 @@
   transition: all 0.3s ease-out;
 }
 
-.btn-medium {
+.btn--medium {
   padding: 8px 20px;
   font-size: 18px;
 }
@@ -34,6 +34,6 @@
 .btn--medium:hover {
   transition: all 0.3s ease-out;
   background: #fff;
-  color: #242424;
+  color: #000;
   transition: 250ms;
 }
