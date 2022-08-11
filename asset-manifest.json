@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/travel-site/static/css/main.0025f21a.css",
+    "main.js": "/travel-site/static/js/main.8d99ba0b.js",
+    "static/media/culture.jpg": "/travel-site/static/media/culture.ada3d8268bfc08e84bac.jpg",
+    "static/media/hills.jpg": "/travel-site/static/media/hills.c22d6ef8eac21c1807d4.jpg",
+    "static/media/islands.jpg": "/travel-site/static/media/islands.c7fdad35a570b47e27f9.jpg",
+    "static/media/amazon.jpg": "/travel-site/static/media/amazon.9bce3ea5f2c20f0116dd.jpg",
+    "static/media/mountain.jpg": "/travel-site/static/media/mountain.0b1f2d243692f5a95252.jpg",
+    "static/media/sailing.jpg": "/travel-site/static/media/sailing.3cb6e5416aee324019e2.jpg",
+    "static/media/window.jpg": "/travel-site/static/media/window.894a6b43f9be770eec6c.jpg",
+    "static/media/Ryan G. Howard Resume 2022.pdf": "/travel-site/static/media/Ryan G. Howard Resume 2022.37ce576bd611b3874b91.pdf",
+    "index.html": "/travel-site/index.html",
+    "main.0025f21a.css.map": "/travel-site/static/css/main.0025f21a.css.map",
+    "main.8d99ba0b.js.map": "/travel-site/static/js/main.8d99ba0b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0025f21a.css",
+    "static/js/main.8d99ba0b.js"
+  ]
+}
