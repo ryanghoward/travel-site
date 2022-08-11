@@ -1,28 +1,11 @@
-import React, { useEffect, useState } from "react";
-import { Button } from "./Button";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../CSS/Button.css";
 import "../CSS/Navbar.css";
-import { FaBars, FaTimes } from "react-icons/fa";
 
 function Navbar() {
   const [click, setClick] = useState(false);
-  const [button, setButton] = useState(true);
-
-  const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
-
-  const showButton = () => {
-    if (window.innerWidth <= 960) {
-      setButton(false);
-    } else {
-      setButton(true);
-    }
-  };
-
-  useEffect(() => {
-    showButton();
-  }, []);
 
   return (
     <>
@@ -31,9 +14,6 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             EXPLORE
           </Link>
-          <div className='menu-icon' onClick={handleClick}>
-            <i className={click ? <FaTimes /> : <FaBars />} />
-          </div>
           <ul className={click ? "nav-menu-active" : "nav-menu"}>
             <li className='nav-item'>
               <Link to='/' className='nav-links' onClick={closeMobileMenu}>
@@ -68,7 +48,6 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {/* {button && <Button buttonStyle='btn--outline'>SIGN UP</Button>} */}
         </div>
       </nav>
     </>

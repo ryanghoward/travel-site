@@ -11,25 +11,25 @@ h1 {
   display: flex;
   flex-flow: column;
   align-items: center;
-  max-width: 1120px;
+  max-width: 70rem;
   width: 90%;
   margin: 0 auto;
 }
 
 .cards__wrapper {
   position: relative;
-  margin: 50px 0 45px;
+  margin: 3rem 0 3rem;
 }
 
 .cards__items {
-  margin-bottom: 24px;
+  margin-bottom: 1.5rem;
 }
 
 .cards__item {
   display: flex;
   flex: 1;
   margin: 0 1rem;
-  border-radius: 10px;
+  border-radius: 1rem;
 }
 
 .cards__item__link {
@@ -39,7 +39,7 @@ h1 {
   box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
   -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
   filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
-  border-radius: 10px;
+  border-radius: 1rem;
   overflow: hidden;
   text-decoration: none;
 }
@@ -60,13 +60,13 @@ h1 {
   content: attr(data-category);
   position: absolute;
   bottom: 0;
-  margin-left: 10px;
+  margin-left: 1rem;
   padding: 6px 8px;
   max-width: calc((100%) - 60px);
-  font-size: 12px;
+  font-size: 0.7rem;
   font-weight: 700;
   color: #fff;
-  background-color: #1f98f4;
+  background-color: steelblue;
   box-sizing: border-box;
 }
 
@@ -95,8 +95,8 @@ h1 {
 
 .cards__item__text {
   color: #252e48;
-  font-size: 18px;
-  line-height: 24px;
+  font-size: 1rem;
+  line-height: 1.5rem;
 }
 
 @media only screen and (min-width: 1200px) {
