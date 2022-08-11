@@ -1,6 +1,7 @@
 .container {
   display: flex;
   height: 91.5vh;
+  width: 100%;
   align-items: center;
   justify-content: center;
   font-size: 3rem;
@@ -26,4 +27,14 @@
 
 .hireme a:hover {
   text-decoration: underline;
+}
+
+@media screen and (max-width: 500px) {
+  .hireme h1 {
+    font-size: 4rem;
+  }
+
+  .hireme a {
+    font-size: 1.5rem;
+  }
 }
